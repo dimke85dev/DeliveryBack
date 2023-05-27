@@ -9,7 +9,7 @@ dotenv.config();
 
 //Constants
 
-const PORT = process.env.PORT || 6001;
+const PORT = process.env.PORT || 2001;
 const DB_USER = process.env.DB_USER;
 const DB_PASSWORD = process.env.DB_PASSWORD;
 const DB_NAME = process.env.DB_NAME;
@@ -17,7 +17,6 @@ const DB_NAME = process.env.DB_NAME;
 // const DB_URL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_NAME}.aipbrq8.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 const DB_URL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_NAME}.aipbrq8.mongodb.net/Delivery?retryWrites=true&w=majority`;
 
-// const multer = require('multer');
 // const upload = multer({ dest: 'uploads/' });
 const app = express();
 
